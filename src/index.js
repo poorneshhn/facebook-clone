@@ -3,6 +3,7 @@ const helmet = require("helmet");
 const userRouter = require("./router/userRouter");
 const regRouter = require("./router/auth");
 const postRoute = require("./router/posts");
+require("dotenv").config();
 const path = require("path");
 require("./db/mongoose");
 
